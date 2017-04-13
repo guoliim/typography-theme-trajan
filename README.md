@@ -14,6 +14,7 @@ import themeTrajan from 'typography-theme-trajan'
 const typography = new Typography(themeTrajan)
 ```
 ## More on theme
-Trajan theme uses "[Trajan](https://typekit.com/fonts/trajan)" for headers and "[Merriweather](https://typekit.com/fonts/merriweather)" for body text
++ Trajan theme uses "[Trajan](https://typekit.com/fonts/trajan)" for headers and "[Merriweather](https://typekit.com/fonts/merriweather)" for body text
++ Add "[Source Han Serif](https://source.typekit.com/source-han-serif/)" for supporting chinese based on local Source Han Serif font
 ## LICENSE
 This project is under the MIT license. See the [LICENSE](./LISENCE) file for the full license text
