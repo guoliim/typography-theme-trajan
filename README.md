@@ -1,4 +1,6 @@
 # Trajan -- a [Typography.js](https://github.com/kyleamathews/typography.js) theme
+[![npm](https://img.shields.io/badge/npm-v0.0.1-brightgreen.svg)](https://www.npmjs.com/package/typography-theme-trajan)    [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+
 A theme for Typography.js inspired by the typography of the typography-theme-wordpress-2016
 ## Install
 ```bash
