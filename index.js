@@ -49,8 +49,7 @@ ul: {
     listStyle: 'disc',
 },
 'ul,ol': {
-    marginLeft: 0,
-        marginBottom: rhythm(1),
+    marginBottom: rhythm(1),
 },
 [MOBILE_MEDIA_QUERY]: {
     'ul,ol': {
