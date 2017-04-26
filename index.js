@@ -61,12 +61,13 @@ ul: {
             paddingLeft: rhythm(9/16),
     },
 },
-'h1,h2,h3,h4,h5,h6': {
+'h1': {
     marginTop: rhythm(2),
 },
 'h2,h3,h4,h5,h6': {
-    marginTop: rhythm(2),
-        fontFamily: 'Merriweather, Georgia, SourceHanSerifCN-Regular, san-serif',
+    marginTop: rhythm(1),
+    marginBottom: rhythm(1),
+    fontFamily: 'Merriweather, Georgia, SourceHanSerifCN-Regular, san-serif',
 },
 h4: {
     letterSpacing: 0,
