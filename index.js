@@ -27,12 +27,12 @@ const theme: OptionsType = {
         boldWeight: 700,
         overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
         blockquote: {
-            ...scale(1/5),
+            ...scale(2/16),
         color: gray(41),
         fontStyle: 'italic',
         paddingLeft: rhythm(13/16),
-        marginLeft: rhythm(-1),
-        borderLeft: `${rhythm(3/16)} solid ${gray(10)}`,
+        marginLeft: rhythm(-1/16),
+        borderLeft: `${rhythm(3/16)} solid ${gray(36)}`,
     },
         'blockquote > :last-child': {
     marginBottom: 0,
