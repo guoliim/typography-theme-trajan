@@ -1,8 +1,10 @@
+//@flow
 import gray from 'gray-percentage';
 import type { OptionsType } from 'Types';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 
 const theme: OptionsType = {
+        title:'guoliim',
         baseFontSize: '20px',
         baseLineHeight: 1.6,
         scaleRatio: 5/2,
@@ -97,11 +99,6 @@ a: {
         color: 'white',
         padding: `${rhythm(1/16)} ${rhythm(1/8)}`,
         textDecoration: 'none',
-},
-'body,p': {
-    lineHeight: '24px',
-        marginTop: 0,
-        marginBottom: rhythm(1),
 },
 }),
 };

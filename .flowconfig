@@ -1,0 +1,13 @@
+[version]
+0.45.0
+
+[ignore]
+*./dist/.*
+
+[include]
+
+[libs]
+flow-types
+
+[options]
+module.name_mapper='Types' -> '<PROJECT_ROOT>/Types.js'
