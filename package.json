@@ -1,6 +1,6 @@
 {
   "name": "typography-theme-trajan",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A theme for Typography.js insprired by the typography-theme-wordpress-2016",
   "main": "index.js",
   "scripts": {

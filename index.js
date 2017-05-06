@@ -19,7 +19,7 @@ const theme: OptionsType = {
                 ],
             },
             {
-                name: 'Source Sans Pro',
+                name: 'Merriweather Sans',
                 styles: [
                     '400',
                     '400i',
@@ -31,7 +31,7 @@ const theme: OptionsType = {
             }
         ],
         headerFontFamily: ['TrajanPro-Bold', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
-        bodyFontFamily: ['Source Sans Pro', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
+        bodyFontFamily: ['Merriweather Sans', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
         bodyColor: 'hsla(0,0%,0%,0.9)',
         headerWeight: 700,
         bodyWeight: 200,
