@@ -1,10 +1,10 @@
 import gray from 'gray-percentage';
-import { OptionsType } from 'Types';
+import type { OptionsType } from 'Types';
 import { MOBILE_MEDIA_QUERY } from 'typography-breakpoint-constants';
 
 const theme: OptionsType = {
-        baseFontSize: '16px',
-        baseLineHeight: 1.5,
+        baseFontSize: '20px',
+        baseLineHeight: 1.6,
         scaleRatio: 5/2,
         googleFonts: [
             {
@@ -18,13 +18,24 @@ const theme: OptionsType = {
                     '900i',
                 ],
             },
+            {
+                name: 'Source Sans Pro',
+                styles: [
+                    '400',
+                    '400i',
+                    '700',
+                    '700i',
+                    '900',
+                    '900i',
+                ]
+            }
         ],
         headerFontFamily: ['TrajanPro-Bold', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
-        bodyFontFamily: ['Merriweather', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
+        bodyFontFamily: ['Source Sans Pro', 'Georgia', 'SourceHanSerifCN-Regular', 'san-serif'],
         bodyColor: 'hsla(0,0%,0%,0.9)',
-        headerWeight: 900,
-        bodyWeight: 400,
-        boldWeight: 700,
+        headerWeight: 700,
+        bodyWeight: 200,
+        boldWeight: 500,
         overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
         blockquote: {
             ...scale(2/16),
